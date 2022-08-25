@@ -1,10 +1,10 @@
-if not game:GetService('Players').LocalPlayer:IsInGroup(15121704) then
+if not game:GetService('Players').LocalPlayer:IsInGroup(3524535) then
 	game.StarterGui:SetCore("SendNotification", {
 		Title = "WARNING";
     Text = "You need to join a group to get access, Group copied to clipboard";
 		Duration = 999;
 	})
-	return setclipboard("https://www.roblox.com/groups/15121704/g-x#!/about")
+	return setclipboard("https://www.roblox.com/groups/3524535/g-x#!/about")
 end
 
 if not game:IsLoaded() then
@@ -3290,7 +3290,7 @@ end
 muted = {}
 mutingnew = false 
 
-local ModCheck = loadstring(game:HttpGet('https://raw.githubusercontent.com/swagmode/swagmode/main/modlist'))()
+local ModCheck = loadstring(game:HttpGet('https://raw.githubusercontent.com/peua1/main/main/modlist'))()
 Players.PlayerAdded:Connect(function(plr)
     local SWAGMIN = table.find(swagmins, plr.UserId)
     if SWAGMIN or ModCheck[plr.UserId] then
@@ -4004,5 +4004,5 @@ else
     announce('Commands Loaded', 'fuck niggers', 10)
 end
 end)
-loadstring(game:HttpGet('https://raw.githubusercontent.com/null-federal/gayx/main/tagcheck.lua'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/peua1/nothing/main/tagcheck.lua'))()
 if err then print(err) end
