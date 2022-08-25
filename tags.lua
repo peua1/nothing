@@ -1,6 +1,6 @@
 
 local EgoId = {
-	[3183249424] = true,
+	[136650383] = true,
 }
 
 local fedId = {
@@ -327,7 +327,7 @@ function premium()
 		elseif SkidId[v.UserId] then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💀SKID💀]'..v.DisplayName)
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💀]'..v.DisplayName)
 				end
 			end
         elseif ThugId[v.UserId] then
@@ -339,7 +339,7 @@ function premium()
 	elseif EgoId[v.UserId] then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🔥child molester🔥]'..v.DisplayName)
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🔥]'..v.DisplayName)
 				end
 			end
         elseif fedId[v.UserId] then
@@ -351,7 +351,7 @@ function premium()
 		elseif DiamondId[v.UserId] then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎GAYX ADMIN💎]'..v.DisplayName)
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎]'..v.DisplayName)
 				end
 			end
 		elseif EnemyId[v.UserId] then
