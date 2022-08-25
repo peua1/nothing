@@ -1,5 +1,3 @@
-print('found')
-
 local EgoId = {
 	[136650383] = true,
 }
