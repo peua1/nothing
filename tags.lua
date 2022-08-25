@@ -1,3 +1,4 @@
+print('found')
 
 local EgoId = {
 	[136650383] = true,
@@ -86,3 +87,4 @@ function premium()
 end
 local success,err = pcall(premium)
 return StarId
+
